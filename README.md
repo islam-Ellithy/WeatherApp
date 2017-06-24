@@ -11,7 +11,8 @@ Fragmment is a partical view that can appear on the activity and is partical of 
   2.2. EditLocationFragment : it's a view that appears to the user to enter the city that want to get weather forecast for it             
   It's components : EditText , Button , ImageView                                                                                         
   2.3. WeekForecastsFragment :it's a view that appears to the user to browse week weather forecast                                         
-  It's components : ListView                                                                                                             
-                                                                                                                                          3. Technologies                                                                                                                         
+  It's components : ListView                                                                                                            
+ 
+3. Technologies                                                                                                                         
 -Retrofit & Gson for consuming the api from openweathermap and searilize it by gson to convert json to Java object                       
 -I used Android studio IDE                                                                                                                    
