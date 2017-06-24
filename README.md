@@ -1,4 +1,4 @@
-About                                                                                                                                   
+# About                                                                                                                                 
 Is an android app that can view weather forecast either weekly or current forecast (Today and tomorrow)
 it's consisting of one activity and 3 fragments
 1. Activities
