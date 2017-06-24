@@ -23,11 +23,7 @@ City : representing city data
 Coord : representing coordination data                                                                                                 
 Day : representing day forecast data                                                                                                   
 Temp : representing temperature data                                                                                                   
-<<<<<<< HEAD
 Weather : representing Weather data                                                                                                     BaseInfo : is object that have basic variables to store data in it and main methods                                                             
-=======
-Weather : representing Weather data                                                                                                    BaseInfo : is object that have basic variables to store data in it and main methods
->>>>>>> 392c5f1fbeaadbde4951522bf24aae1fd02ab505
 
 ### 5. Technologies                                                                                                                     
 -Retrofit & Gson for consuming the api from openweathermap and searilize it by gson to convert json to Java object                       
