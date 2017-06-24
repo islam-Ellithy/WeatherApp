@@ -23,7 +23,7 @@ Those are models that represent json data to store data from parsing in it
 -Coord : representing coordination data                                                                                                 
 -Day : representing day forecast data                                                                                                   
 -Temp : representing temperature data                                                                                                   
--Weather : representing Weather data                                                                                                    -BaseInfo : is object that have basic variables to store data in it and main methods                                                                                       
+-Weather : representing Weather data                                                                                                                                                                                                                                            -BaseInfo : is object that have basic variables to store data in it and main methods                                                                                       
 ### 5. Technologies                                                                                                                     
 -Retrofit & Gson for consuming the api from openweathermap and searilize it by gson to convert json to Java object                       
 -I used Android studio IDE                                                                                                               
