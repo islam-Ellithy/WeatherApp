@@ -30,7 +30,7 @@ Weather : representing Weather data from json                                   
 *Get icon of the weather state : http://openweathermap.org/img/w/io2.png
 ### 6. Built With
                                                                                                                      
-*Retrofit - for consuming the api from openweathermap                                
-*Gson - to convert json to Java object                                                                                                          
-*Picasso - for downloading images from url into imageview                                                                                       
-*Android studio  - Integreted development environment                                                                                                              
+* Retrofit - for consuming the api from openweathermap                                
+* Gson - to convert json to Java object                                                                                                          
+* Picasso - for downloading images from url into imageview                                                                                       
+* Android studio  - Integreted development environment                                                                                                              
