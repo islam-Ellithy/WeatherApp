@@ -6,31 +6,57 @@ MainActivity : is the only activity on the project that through it I can switch 
 ### 2. Fragments
 This project consists of three fragments 
 Fragmment is a partical view that can appear on the activity and is partical of the activity                                               
-  2.1. CurrentForecastFragment : it's a view that appears to the user to display current weather forecast(Today and tomorrow)             
+  * CurrentForecastFragment  : it's a view that appears to the user to display current weather forecast(Today and tomorrow)             
   It's components : ListView                                                                                                               
-  2.2. EditLocationFragment : it's a view that appears to the user to enter the city that want to get weather forecast for it             
+  * EditLocationFragment  : it's a view that appears to the user to enter the city that want to get weather forecast for it             
   It's components : EditText , Button , ImageView                                                                                         
-  2.3. WeekForecastsFragment :it's a view that appears to the user to browse week weather forecast                                         
+  * WeekForecastsFragment  : it's a view that appears to the user to browse week weather forecast                                        
   It's components : ListView                                                                                                            
 
 ### 3. DataBase                                                                                                                         
--I used shared preferences to store city name to can get weather forecast based on that city
+* I used shared preferences to store city name to can get weather forecast based on that city
 
 ### 4. Models                                                                                                                           
 Those are models that represent json data to store data from parsing in it
-Forecast : representing the object of the json that is coming from the api  
-City : representing city data from json                                                                                                         
-Coord : representing coordination data from json                                                                                               
-Day : representing day forecast data from json                                                                                                  
-Temp : representing temperature data from json                                                                                                  
-Weather : representing Weather data from json                                                                                                   BaseInfo : is object that have basic variables to store data in it and main methods                                                             
+*  Forecast  : representing the object of the json that is coming from the api                                                       
+
+
+* City  : representing city data from json                                                                                            
+
+
+* Coord  : representing coordination data from json                                                                                    
+
+
+* Day  : representing day forecast data from json                                                                                      
+
+
+* Temp : representing temperature data from json                                                                                      
+
+
+* Weather : representing Weather data from json                                                                                       
+
+
+* BaseInfo  : is object that have basic variables to store data in it and main methods                                                  
+
+
 
 ### 5. API URL
-*Get 7 weather forecast for 7 days for london : http://api.openweathermap.org/data/2.5/forecast/daily?appid=XXXX&mode=json&units=metric&q=london&cnt=7
-*Get icon of the weather state : http://openweathermap.org/img/w/io2.png
+* Get 7 weather forecast for 7 days for london                                                                                           
+
+  http://api.openweathermap.org/data/2.5/forecast/dailyappid=XXXX&mode=json&units=metric&q=london&cnt=7
+* Get icon of the weather state                                                                                                        
+
+  http://openweathermap.org/img/w/io2.png                                                                                                                                                                                                                
 ### 6. Built With
                                                                                                                      
-* Retrofit - for consuming the api from openweathermap                                
-* Gson - to convert json to Java object                                                                                                          
-* Picasso - for downloading images from url into imageview                                                                                       
-* Android studio  - Integreted development environment                                                                                                              
+* Retrofit - for consuming the api from openweathermap
+
+
+* Gson - to convert json to Java object                                                                                                
+
+
+* Picasso - for downloading images from url into imageview                                                              
+
+
+* Android studio  - Integreted development environment                                                                                  
+
